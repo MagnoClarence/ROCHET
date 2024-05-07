@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7723200b4e.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>ROCHET</title>
+    <style>
+        /* Custom CSS for smaller second parallax */
+        .second-parallax {
+            height: 300px; /* Adjust the height as needed */
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav_bar">
+        <div class="nav-wrapper">
+            <a href="Home.html" class="brand-logo">
+                <img src="logo.png" alt="Logo">
+            </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down nav-list">
+                <li class="active"><a href="Home.html">Home</a></li>
+                <li><a href="Services.html">Products</a></li>
+                <li><a href="About Us.html">About Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large red">
+        <i class="fa-solid fa-envelope"></i>
+        </a>
+        <ul>
+          <li><a class="btn-floating blue darken-3"><i class="fa-brands fa-facebook"></i></a></li>
+          <li><a class="btn-floating pink darken-1"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a class="btn-floating black"><i class="fa-brands fa-x-twitter"></i></a></li>
+          <li><a class="btn-floating yellow darken-3"><i class="fa-solid fa-share-nodes"></i></a></li>
+        </ul>
+      </div>
+
+
+    <div class="parallax-container">
+        <div class="parallax"><img src="Parallax/1.png"></div>
+    </div>
+    <br><br><br>
+
+
+    <section class="carousel-section" style="padding-left: 50px;">
+        <div class="container">
+            <div class="centered-heading">
+                <h2>Best Sellers</h2>
+            </div>
+        </div>
+        <div class="container" style="padding-bottom: 50px;">
+             <div class="carousel">
+            <a class="carousel-item" href="#!">
+                <img src="Carousel/BS1.png" alt="Product BS1">
+            </a>
+            <a class="carousel-item" href="#!">
+                <img src="Carousel/BS2.png" alt="Product BS2">
+            </a>
+            <a class="carousel-item" href="#!">
+                <img src="Carousel/BS3.png" alt="Product BS3">
+            </a>
+            <a class="carousel-item" href="#!">
+                <img src="Carousel/BS4.png" alt="Product BS4">
+            </a>
+            <a class="carousel-item" href="#!">
+                <img src="Carousel/BS5.png" alt="BS5">
+            </a>
+            </div>
+        </div>
+    </section>
+
+    <br><br>
+    
+    
+    
+
+
+    <br>
+
+    <section class="categories-section">
+        <div class="container">
+            <div class="centered-heading">
+                <h2>Categories</h2>
+            </div>
+        </div>
+        <br><br><br>
+        <div class="container">
+            <div class="image-links">
+                <a href="Services.html#all-products" class="image-link">
+                    <div class="image-overlay">
+                        <img src="Products/Product 10.JPG" alt="See All">
+                        <div class="overlay-text">See All</div>
+                    </div>
+                </a>
+                <a href="Services.html#original-sizes" class="image-link">
+                    <div class="image-overlay">
+                        <img src="Products/Product 2.0.HEIC" alt="Original Sizes">
+                        <div class="overlay-text">Original Sizes</div>
+                    </div>
+                </a>
+                <a href="Services.html#mini-sizes" class="image-link">
+                    <div class="image-overlay">
+                        <img src="Products/Product 3.2.HEIC" alt="Mini Sizes">
+                        <div class="overlay-text">Mini Sizes</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <br><br>
+    <footer class="page-footer" style="background-color: #E6AF2E;">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="black-text">Contact Us</h5>
+                    <p class="black-text">Reach out to us by using the following social media accounts below. Complains, questions, inquiries, supports, and words of encouragements are all welcome!</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="black-text">Social Media</h5>
+                    <ul>
+                        <li><a class="black-text" href="https://www.instagram.com/by.rochet?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+                        <li><a class="black-text" href="#!"><i class="fa-brands fa-square-facebook"></i> Facebook</a></li>
+                        <li><a class="black-text" href="#!"><i class="fa-brands fa-youtube"></i> Youtube</a></li>
+                        <li><a class="black-text" href="#!"><i class="fa-brands fa-x-twitter"></i> Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <!-- JQUERY-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- Call carousel initialization after materialize.min.js -->
+    <script>
+        $(document).ready(function(){
+            $('.carousel').carousel();
+            $('.parallax').parallax();
+            $('.fixed-action-btn').floatingActionButton();
+            $('.sidenav').sidenav();
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7723200b4e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>ROCHET</title>
+
+</head>
+<body>
+    <nav class="nav_bar">
+        <div class="nav-wrapper">
+            <a href="Home.html" class="brand-logo">
+                <img src="logo.png" alt="Logo">
+            </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down nav-list">
+                <li><a href="Home.html">Home</a></li>
+                <li class="active"><a href="Services.html">Products</a></li>
+                <li><a href="About Us.html">About Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large red">
+        <i class="fa-solid fa-envelope"></i>
+        </a>
+        <ul>
+          <li><a class="btn-floating blue darken-3"><i class="fa-brands fa-facebook"></i></a></li>
+          <li><a class="btn-floating pink darken-1"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a class="btn-floating black"><i class="fa-brands fa-x-twitter"></i></a></li>
+          <li><a class="btn-floating yellow darken-3"><i class="fa-solid fa-share-nodes"></i></a></li>
+        </ul>
+    </div>
+
+
+    <div class="container">
+        <h1>Products</h1>
+        <div class="category-buttons">
+            <button class="button-53" onclick="showCategory('all-products')">All Products</button>
+            <button class="button-53"onclick="showCategory('original-sizes')">Original Sizes</button>
+            <button class="button-53"onclick="showCategory('mini-sizes')">Mini Sizes</button>
+        </div>
+
+        <section id="all-products">
+            <h2>All Products</h2>
+            <div class="image-links">
+                <div class="product-card-container">
+                    <div class="product-card-small">
+                        <img src="Products/Product 5.HEIC" alt="Product 5" class="product-image-small">
+                        <div class="product-info-small">
+                            <p class="product-name-small">Product 1</p>
+                            <p class="product-price-small">₱400</p>
+                            <p class="product-material-small">Chunky chenille yarn</p>
+                        </div>
+                    </div>
+                    <div class="product-card-small">
+                        <img src="Products/Product 6.HEIC" alt="Product 6" class="product-image-small">
+                        <div class="product-info-small">
+                            <p class="product-name-small">Product 2</p>
+                            <p class="product-price-small">₱400</p>
+                            <p class="product-material-small">Chunky chenille yarn</p>
+                        </div>
+                    </div>
+                    <div class="product-card-small">
+                        <img src="Products/Product 7.HEIC" alt="Product 7" class="product-image-small">
+                        <div class="product-info-small">
+                            <p class="product-name-small">Product 3</p>
+                            <p class="product-price-small">₱400</p>
+                            <p class="product-material-small">Chunky chenille yarn</p>
+                        </div>
+                    </div>
+                    <div class="product-card-small">
+                        <img src="Products/Product 8.HEIC" alt="Product 8" class="product-image-small">
+                        <div class="product-info-small">
+                            <p class="product-name-small">Product 4</p>
+                            <p class="product-price-small">₱400</p>
+                            <p class="product-material-small">Chunky chenille yarn</p>
+                        </div>
+                    </div>
+                    <div class="product-card-small">
+                        <img src="Products/Product 9.HEIC" alt="Product 9" class="product-image-small">
+                        <div class="product-info-small">
+                            <p class="product-name-small">Product 5</p>
+                            <p class="product-price-small">₱400</p>
+                            <p class="product-material-small">Chunky chenille yarn</p>
+                        </div>
+                    </div>
+                    <div class="product-card-small">
+                        <img src="Products/Product 10.JPG" alt="Product 10" class="product-image-small">
+                        <div class="product-info-small">
+                            <p class="product-name-small">Product 6</p>
+                            <p class="product-price-small">₱400</p>
+                            <p class="product-material-small">Chunky chenille yarn</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+
+        <section id="original-sizes" style="display: none;">
+            <h2>Original Sizes</h2>
+            <div class="image-links">
+                <div class="product-card-container">
+                    <div class="product-card-small">
+                        <img src="Products/Product 1.0.HEIC" alt="Product 1.0" class="product-image-small">
+                        <div class="product-info-small">
+                            <p class="product-name-small">Product 1</p>
+                            <p class="product-price-small">₱400</p>
+                            <p class="product-material-small">Chunky chenille yarn</p>
+                        </div>
+                    </div>
+                    <div class="product-card-small">
+                        <img src="Products/Product 1.1.JPG" alt="Product 1.1" class="product-image-small">
+                        <div class="product-info-small">
+                            <p class="product-name-small">Product 2</p>
+                            <p class="product-price-small">₱400</p>
+                            <p class="product-material-small">Chunky chenille yarn</p>
+                        </div>
+                    </div>
+                    <div class="product-card-small">
+                        <img src="Products/Product 2.0.HEIC" alt="Product 2.0" class="product-image-small">
+                        <div class="product-info-small">
+                            <p class="product-name-small">Product 3</p>
+                            <p class="product-price-small">₱400</p>
+                            <p class="product-material-small">Chunky chenille yarn</p>
+                        </div>
+                    </div>
+                    <div class="product-card-small">
+                        <img src="Products/Product 3.0.HEIC" alt="Product 3.0" class="product-image-small">
+                        <div class="product-info-small">
+                            <p class="product-name-small">Product 4</p>
+                            <p class="product-price-small">₱400</p>
+                            <p class="product-material-small">Chunky chenille yarn</p>
+                        </div>
+                    </div>
+                    <div class="product-card-small">
+                        <img src="Products/Product 4.0.HEIC" alt="Product 4.0" class="product-image-small">
+                        <div class="product-info-small">
+                            <p class="product-name-small">Product 5</p>
+                            <p class="product-price-small">₱400</p>
+                            <p class="product-material-small">Chunky chenille yarn</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="mini-sizes" style="display: none;">
+            <h2>Mini Sizes</h2>
+            <div class="image-links">
+                <div class="product-card-container">
+                    <div class="product-card-small">
+                        <img src="Products/Product 1.2.HEIC" alt="Product 1.2" class="product-image-small">
+                        <div class="product-info-small">
+                            <p class="product-name-small">Product 1</p>
+                            <p class="product-price-small">₱400</p>
+                            <p class="product-material-small">Chunky chenille yarn</p>
+                        </div>
+                    </div>
+                    <div class="product-card-small">
+                        <img src="Products/Product 2.1.HEIC" alt="Product 2.1" class="product-image-small">
+                        <div class="product-info-small">
+                            <p class="product-name-small">Product 2</p>
+                            <p class="product-price-small">₱400</p>
+                            <p class="product-material-small">Chunky chenille yarn</p>
+                        </div>
+                    </div>
+                    <div class="product-card-small">
+                        <img src="Products/Product 3.1.HEIC" alt="Product 3.1" class="product-image-small">
+                        <div class="product-info-small">
+                            <p class="product-name-small">Product 3</p>
+                            <p class="product-price-small">₱400</p>
+                            <p class="product-material-small">Chunky chenille yarn</p>
+                        </div>
+                    </div>
+                    <div class="product-card-small">
+                        <img src="Products/Product 3.2.HEIC" alt="Product 3.2" class="product-image-small">
+                        <div class="product-info-small">
+                            <p class="product-name-small">Product 4</p>
+                            <p class="product-price-small">₱400</p>
+                            <p class="product-material-small">Chunky chenille yarn</p>
+                        </div>
+                    </div>
+                    <div class="product-card-small">
+                        <img src="Products/Product 4.1.HEIC" alt="Product 4.1" class="product-image-small">
+                        <div class="product-info-small">
+                            <p class="product-name-small">Product 5</p>
+                            <p class="product-price-small">₱400</p>
+                            <p class="product-material-small">Chunky chenille yarn</p>
+                        </div>
+                    </div>
+                    <div class="product-card-small">
+                        <img src="Products/Product 4.2.HEIC" alt="Product 4.2" class="product-image-small">
+                        <div class="product-info-small">
+                            <p class="product-name-small">Product 5</p>
+                            <p class="product-price-small">₱400</p>
+                            <p class="product-material-small">Chunky chenille yarn</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <br><br>
+    <footer class="page-footer" style="background-color: #E6AF2E;">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Contact Us</h5>
+                    <p class="grey-text text-lighten-4">Reach out to us by using the following social media accounts below. Complains, questions, inquiries, supports, and words of encouragements are all welcome!</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Social Media</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/by.rochet?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!"><i class="fa-brands fa-square-facebook"></i> Facebook</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!"><i class="fa-brands fa-youtube"></i> Youtube</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!"><i class="fa-brands fa-x-twitter"></i> Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.carousel').carousel();
+            $('.parallax').parallax();
+            $('.fixed-action-btn').floatingActionButton();
+            $('.sidenav').sidenav();
+        });
+    </script>
+</body>
+</html>
